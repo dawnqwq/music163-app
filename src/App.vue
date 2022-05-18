@@ -1,14 +1,18 @@
 <template>
   <TopNav/>
+  <Swiper/>
 </template>
 
 <script>
-import TopNav from "./components/home/TopNav.vue"
+import TopNav from "@/components/home/TopNav.vue"
+import Swiper from "@/components/home/Swiper.vue"
+
 export default{
   name:'App',
   components:{
-    TopNav
-  }
+    TopNav,
+    Swiper,
+}
 }
 </script>
 
